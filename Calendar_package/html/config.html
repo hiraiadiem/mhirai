@@ -1,0 +1,500 @@
+<div> 
+  <div class="block">
+    <div class="kintoneplugin-label">
+        <span id ="container_label">カスタマイズビューのHTML設定内容</span>
+    </div>
+    <div class="kintoneplugin-row">※カレンダーPlusを設置するカスタマイズビューには以下のHTMLを設定してください。</div>
+    <div class="kintoneplugin-row"><pre>&lt;div id="calendarPlus"&gt;&lt;/div&gt;</pre></div>
+  </div>
+
+  <div class="block">
+    <div class="kintoneplugin-label">
+        <span id ="container_label">アクティベーションキー</span>
+    </div>
+    <div class="kintoneplugin-row">カレンダーPlusの有償ライセンスをお持ちの方はアクティベーションキーを入力してください。</div>
+     <div class="kintoneplugin-input-outer">
+      <input id ="activationKey" class="kintoneplugin-input-text" style="width: 200px;"></input>
+     </div>
+    <div class="kintoneplugin-row"><a href="http://radical-bridge.com/product/calendarPlus.html" target="_blank">有償ライセンスの購入はこちら</a></div>
+  </div>
+
+  <div class="block" style="display: none;">
+    <div class="kintoneplugin-label">
+        <span id ="container_label">カレンダーPlusを表示するビューID</span>
+        <span class="kintoneplugin-require">*</span>
+    </div>
+    <div class="kintoneplugin-row">カレンダーPlusを表示するビューIDを入力してください。</div>
+     <div class="kintoneplugin-input-outer">
+      <input id ="viewId" class="kintoneplugin-input-text"></input>
+     </div>
+    <div class="kintoneplugin-row">※このビューのHTMLには以下を設定してください。</div>
+    <div class="kintoneplugin-row"><pre>&lt;div id="calendarPlus"&gt;&lt;/div&gt;</pre></div>
+  </div>
+
+  <div class="block">
+    <div class="kintoneplugin-label">
+        <span id ="container_label">既定のカレンダー表示形式</span>
+        <span class="kintoneplugin-require">*</span>
+    </div>
+    <div class="kintoneplugin-row">既定のカレンダー表示形式を選択してください。</div>
+    <div class="kintoneplugin-select-outer">
+     <div class="kintoneplugin-select">
+        <select id="defaultViewName">
+          <option value="" selected>---</option>
+          <option value="month">月別表示</option>
+          <option value="agendaWeek">週別表示</option>
+          <option value="agendaDay">日別表示</option>
+        </select>
+     </div>
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="kintoneplugin-label">
+        <span id ="container_label">予定クリック時の動作</span>
+        <span class="kintoneplugin-require">*</span>
+    </div>
+    <div class="kintoneplugin-row">予定クリック時の動作を選択してください。</div>
+    <div class="kintoneplugin-select-outer">
+     <div class="kintoneplugin-select">
+        <select id="detailMode">
+          <option value="" selected>---</option>
+          <option value="edit">編集画面を開く</option>
+          <option value="detail">詳細画面を開く</option>
+        </select>
+     </div>
+    </div>
+  </div>
+ 
+  <div class="block">
+    <div class="kintoneplugin-label">
+        <span id ="container_label">タイトルの登録先フィールド</span>
+        <span class="kintoneplugin-require">*</span>
+    </div>
+    <div class="kintoneplugin-row">タイトルを登録するフィールドを選択してください。（文字列1行フィールドのみ選択可）</div>
+    <div class="kintoneplugin-select-outer">
+     <div class="kintoneplugin-select">
+        <select id="title">
+          <option value="" selected>---</option>
+        </select>
+     </div>
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="kintoneplugin-label">
+        <span id ="container_label">表示用タイトルのフィールド</span>
+        <span class="kintoneplugin-require">*</span>
+    </div>
+    <div class="kintoneplugin-row">タイトルとして表示するフィールドを選択してください。<br />
+    （文字列1行、数値、ルックアップ、計算、ラジオボタン、ドロップダウンフィールドのみ選択可）</div>
+    <div class="kintoneplugin-select-outer">
+     <div class="kintoneplugin-select">
+        <select id="titleForDisp">
+          <option value="" selected>---</option>
+        </select>
+     </div>
+    </div>
+  </div>
+  
+  <div class="block">
+    <div class="kintoneplugin-label">
+        <span id ="container_label">開始日時のフィールド</span>
+        <span class="kintoneplugin-require">*</span>
+    </div>
+    <div class="kintoneplugin-row">開始日時にするフィールドを選択してください。（日時フィールドのみ選択可）</div>
+    <div class="kintoneplugin-select-outer">
+     <div class="kintoneplugin-select">
+        <select id="startDateTime">
+          <option value="" selected>---</option>
+        </select>
+     </div>
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="kintoneplugin-label">
+        <span id ="container_label">終了日時のフィールド</span>
+        <span class="kintoneplugin-require">*</span>
+    </div>
+    <div class="kintoneplugin-row">終了日時にするフィールドを選択してください。（日時フィールドのみ選択可）</div>
+    <div class="kintoneplugin-select-outer">
+     <div class="kintoneplugin-select">
+        <select id="endDateTime">
+          <option value="" selected>---</option>
+        </select>
+     </div>
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="kintoneplugin-label">
+        <span id ="container_label">終日指定のフィールド</span>
+        <span class="kintoneplugin-require">*</span>
+    </div>
+    <div class="kintoneplugin-row">終日を指定するフィールドを選択してください。（選択肢を一つだけ持つチェックボックスフィールドのみ選択可）</div>
+    <div class="kintoneplugin-select-outer">
+     <div class="kintoneplugin-select">
+        <select id="allDay">
+          <option value="" selected>---</option>
+        </select>
+     </div>
+    </div>
+    <div class="kintoneplugin-row">[終日]を表す値を選択してください。</div>
+    <div class="kintoneplugin-select-outer">
+     <div class="kintoneplugin-select">
+        <select id="allDayFieldValue">
+        </select>
+     </div>
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="kintoneplugin-label">
+        <span id ="container_label">時刻間隔</span>
+        <span class="kintoneplugin-require">*</span>
+    </div>
+    <div class="kintoneplugin-row">時刻間隔を設定してください。</div>
+    <div class="kintoneplugin-select-outer">
+     <div class="kintoneplugin-select">
+        <select id="slotDurationForTime">
+          <option value="" selected>---</option>
+          <option value="00:05:00">5分</option>
+          <option value="00:10:00">10分</option>
+          <option value="00:15:00">15分</option>
+          <option value="00:20:00">20分</option>
+          <option value="00:30:00">30分</option>
+        </select>
+     </div>
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="kintoneplugin-label">
+        <span id ="container_label">表示時間帯の設定</span>
+        <span class="kintoneplugin-require">*</span>
+    </div>
+    <div class="kintoneplugin-row">表示開始時刻を選択してください。</div>
+    <div class="kintoneplugin-select-outer">
+     <div class="kintoneplugin-select">
+        <select id="minTime">
+          <option value="00:00:00" selected>00:00</option>
+          <option value="01:00:00">01:00</option>
+          <option value="02:00:00">02:00</option>
+          <option value="03:00:00">03:00</option>
+          <option value="04:00:00">04:00</option>
+          <option value="05:00:00">05:00</option>
+          <option value="06:00:00">06:00</option>
+          <option value="07:00:00">07:00</option>
+          <option value="08:00:00">08:00</option>
+          <option value="09:00:00">09:00</option>
+          <option value="10:00:00">10:00</option>
+          <option value="11:00:00">11:00</option>
+          <option value="12:00:00">12:00</option>
+          <option value="13:00:00">13:00</option>
+          <option value="14:00:00">14:00</option>
+          <option value="15:00:00">15:00</option>
+          <option value="16:00:00">16:00</option>
+          <option value="17:00:00">17:00</option>
+          <option value="18:00:00">18:00</option>
+          <option value="19:00:00">19:00</option>
+          <option value="20:00:00">20:00</option>
+          <option value="21:00:00">21:00</option>
+          <option value="22:00:00">22:00</option>
+          <option value="23:00:00">23:00</option>
+          <option value="24:00:00">24:00</option>
+        </select>
+     </div>
+    </div>
+    <div class="kintoneplugin-row">表示終了時刻を選択してください。</div>
+    <div class="kintoneplugin-select-outer">
+     <div class="kintoneplugin-select">
+        <select id="maxTime">
+          <option value="00:00:00">00:00</option>
+          <option value="01:00:00">01:00</option>
+          <option value="02:00:00">02:00</option>
+          <option value="03:00:00">03:00</option>
+          <option value="04:00:00">04:00</option>
+          <option value="05:00:00">05:00</option>
+          <option value="06:00:00">06:00</option>
+          <option value="07:00:00">07:00</option>
+          <option value="08:00:00">08:00</option>
+          <option value="09:00:00">09:00</option>
+          <option value="10:00:00">10:00</option>
+          <option value="11:00:00">11:00</option>
+          <option value="12:00:00">12:00</option>
+          <option value="13:00:00">13:00</option>
+          <option value="14:00:00">14:00</option>
+          <option value="15:00:00">15:00</option>
+          <option value="16:00:00">16:00</option>
+          <option value="17:00:00">17:00</option>
+          <option value="18:00:00">18:00</option>
+          <option value="19:00:00">19:00</option>
+          <option value="20:00:00">20:00</option>
+          <option value="21:00:00">21:00</option>
+          <option value="22:00:00">22:00</option>
+          <option value="23:00:00">23:00</option>
+          <option value="24:00:00" selected>24:00</option>
+        </select>
+     </div>
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="kintoneplugin-label">
+        <span id ="container_label">週の開始曜日</span>
+        <span class="kintoneplugin-require">*</span>
+    </div>
+    <div class="kintoneplugin-row">週の開始曜日を設定してください。</div>
+    <div class="kintoneplugin-select-outer">
+     <div class="kintoneplugin-select">
+        <select id="firstDay">
+          <option value="0" selected>日曜日</option>
+          <option value="1">月曜日</option>
+          <option value="2">火曜日</option>
+          <option value="3">水曜日</option>
+          <option value="4">木曜日</option>
+          <option value="5">金曜日</option>
+          <option value="6">土曜日</option>
+        </select>
+     </div>
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="kintoneplugin-label">
+        <span id ="container_label">営業曜日の設定</span>
+    </div>
+    <div class="kintoneplugin-row">営業曜日を選択してください。</div>
+    <div class="kintoneplugin-input-checkbox"><span class="kintoneplugin-input-checkbox-item"><input type="checkbox" name="dow" value="0" id="dow-0" checked=""><label for="0">日曜日</label></span></div>
+    <div class="kintoneplugin-input-checkbox"><span class="kintoneplugin-input-checkbox-item"><input type="checkbox" name="dow" value="1" id="dow-1" checked=""><label for="1">月曜日</label></span></div>
+    <div class="kintoneplugin-input-checkbox"><span class="kintoneplugin-input-checkbox-item"><input type="checkbox" name="dow" value="2" id="dow-2" checked=""><label for="2">火曜日</label></span></div>
+    <div class="kintoneplugin-input-checkbox"><span class="kintoneplugin-input-checkbox-item"><input type="checkbox" name="dow" value="3" id="dow-3" checked=""><label for="3">水曜日</label></span></div>
+    <div class="kintoneplugin-input-checkbox"><span class="kintoneplugin-input-checkbox-item"><input type="checkbox" name="dow" value="4" id="dow-4" checked=""><label for="4">木曜日</label></span></div>
+    <div class="kintoneplugin-input-checkbox"><span class="kintoneplugin-input-checkbox-item"><input type="checkbox" name="dow" value="5" id="dow-5" checked=""><label for="5">金曜日</label></span></div>
+    <div class="kintoneplugin-input-checkbox"><span class="kintoneplugin-input-checkbox-item"><input type="checkbox" name="dow" value="6" id="dow-6" checked=""><label for="6">土曜日</label></span></div>
+  </div>
+
+  <div class="block">
+    <div class="kintoneplugin-label">
+        <span id ="container_label">予定の重複禁止設定</span>
+        <span class="kintoneplugin-require">*</span>
+    </div>
+    <div class="kintoneplugin-row">同じ時間帯に複数の予定を重複して登録できるようにするかどうかを設定してください。<br />
+    ※カレンダーPlus上でのドラッグ＆ドロップ操作による予定の重複を許可・禁止するための設定です。<br /> 
+    ※kintone標準の追加・編集画面には、この重複禁止設定は影響しません。</div>
+    <div class="kintoneplugin-select-outer">
+     <div class="kintoneplugin-select">
+        <select id="allowOverlap">
+          <option value="" selected>---</option>
+          <option value="allowOverlap">重複を許可する</option>
+          <option value="disallowOverlap">重複を許可しない</option>
+        </select>
+     </div>
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="kintoneplugin-label">
+        <span id ="container_label">ドラッグ操作の許可・禁止設定</span>
+        <span class="kintoneplugin-require">*</span>
+    </div>
+    <div class="kintoneplugin-row">ドラッグ操作による時間帯の変更を行えるようにするかどうかを設定してください。<br />
+    ※Proの場合、ドラッグ操作を禁止するとリソースの変更も行えなくなります。</div>
+    <div class="kintoneplugin-select-outer">
+     <div class="kintoneplugin-select">
+        <select id="allowEditable">
+          <option value="" selected>---</option>
+          <option value="allowEditable">ドラッグ操作を許可する</option>
+          <option value="disallowEditable">ドラッグ操作を禁止する</option>
+        </select>
+     </div>
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="kintoneplugin-label">
+        <span id ="container_label">共有設定のフィールド</span>
+    </div>
+    <div class="kintoneplugin-row">共有設定のフィールドを選択してください。（ラジオボタンまたはドロップダウンフィールドのみ選択可）<br />
+    ※kintoneのレコードのアクセス権設定で「非公開」のレコードは「作成者」のみが閲覧・編集・削除できるように設定すると、作成者本人のみが見える予定になります。</div>
+    <div class="kintoneplugin-select-outer">
+     <div class="kintoneplugin-select">
+        <select id="privateSetting">
+          <option value="" selected>---</option>
+        </select>
+     </div>
+    </div>
+    <div class="kintoneplugin-row">[非公開]状態を表す値を選択してください。</div>
+    <div class="kintoneplugin-select-outer">
+     <div class="kintoneplugin-select">
+        <select id="privateSettingFieldValue">
+        </select>
+     </div>
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="kintoneplugin-label">
+        <span id ="container_label">色分けのフィールド</span>
+    </div>
+    <div class="kintoneplugin-row">色分けをするフィールドを選択してください。（ラジオボタンまたはドロップダウンフィールドのみ選択可）</div>
+    <div class="kintoneplugin-select-outer">
+     <div class="kintoneplugin-select">
+        <select id="bgColor">
+          <option value="" selected>---</option>
+        </select>
+     </div>
+    </div>
+    <div class="kintoneplugin-row" style="color: #006400;">■緑色にする値</div>
+    <div class="kintoneplugin-select-outer">
+     <div class="kintoneplugin-select">
+        <select id="bgColor_green">
+        </select>
+     </div>
+    </div>
+    <div class="kintoneplugin-row" style="color: #0040D4;">■青色にする値</div>
+    <div class="kintoneplugin-select-outer">
+     <div class="kintoneplugin-select">
+        <select id="bgColor_blue">
+        </select>
+     </div>
+    </div>
+    <div class="kintoneplugin-row" style="color: #A40000;">■赤色にする値</div>
+    <div class="kintoneplugin-select-outer">
+     <div class="kintoneplugin-select">
+        <select id="bgColor_red">
+        </select>
+     </div>
+    </div>
+    <div class="kintoneplugin-row" style="color: #646464;">■グレーにする値</div>
+    <div class="kintoneplugin-select-outer">
+     <div class="kintoneplugin-select">
+        <select id="bgColor_gray">
+        </select>
+     </div>
+    </div>
+    <div class="kintoneplugin-row" style="color: #F0670F;">■オレンジにする値</div>
+    <div class="kintoneplugin-select-outer">
+     <div class="kintoneplugin-select">
+        <select id="bgColor_orange">
+        </select>
+     </div>
+    </div>
+    <div class="kintoneplugin-row" style="color: #8B4513;">■茶色にする値</div>
+    <div class="kintoneplugin-select-outer">
+     <div class="kintoneplugin-select">
+        <select id="bgColor_brown">
+        </select>
+     </div>
+    </div>
+    <div class="kintoneplugin-row" style="color: #800080;">■紫色にする値</div>
+    <div class="kintoneplugin-select-outer">
+     <div class="kintoneplugin-select">
+        <select id="bgColor_purple">
+        </select>
+     </div>
+    </div>
+    <div class="kintoneplugin-row" style="color: #eb6ea0;">■ピンクにする値</div>
+    <div class="kintoneplugin-select-outer">
+     <div class="kintoneplugin-select">
+        <select id="bgColor_pink">
+        </select>
+     </div>
+    </div>
+    <div class="kintoneplugin-row" style="color: #2ca9e1;">■水色にする値</div>
+    <div class="kintoneplugin-select-outer">
+     <div class="kintoneplugin-select">
+        <select id="bgColor_lightBlue">
+        </select>
+     </div>
+    </div>
+    <div class="kintoneplugin-row" style="color: #f8b500;">■黄色にする値</div>
+    <div class="kintoneplugin-select-outer">
+     <div class="kintoneplugin-select">
+        <select id="bgColor_yellow">
+        </select>
+     </div>
+    </div>
+    <div class="kintoneplugin-row" style="color: #9cbb1c;">■黄緑色にする値</div>
+    <div class="kintoneplugin-select-outer">
+     <div class="kintoneplugin-select">
+        <select id="bgColor_yellowGreen">
+        </select>
+     </div>
+    </div>
+    <div class="kintoneplugin-row" style="color: #223a70;">■紺色にする値</div>
+    <div class="kintoneplugin-select-outer">
+     <div class="kintoneplugin-select">
+        <select id="bgColor_deepBlue">
+        </select>
+     </div>
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="kintoneplugin-label">
+        <span id ="container_label">リソース別スケジュールオプションの利用設定</span>
+        <span style="color: #A40000;">※Pro専用機能</span>
+    </div>
+    <div class="kintoneplugin-row">リソース別スケジュールオプションを利用する場合はチェックしてください。</div>
+    <div class="kintoneplugin-input-checkbox"><span class="kintoneplugin-input-checkbox-item"><input type="checkbox" name="schedulerOpt" value="enableSchedulerOpt" id="schedulerOpt"><label for="schedulerOpt">リソース別スケジュールオプション機能を有効にする</label></span></div>
+  </div>
+
+  <div class="block" id="resource_block" style="display：none;">
+    <div class="kintoneplugin-label">
+        <span id ="container_label">リソースとして利用するフィールド</span>
+        <span class="kintoneplugin-require">*</span>
+        <span style="color: #A40000;">※Pro専用機能</span>
+    </div>
+    <div class="kintoneplugin-row">リソースとして利用するフィールドを選択してください。（ラジオボタン、ドロップダウンフィールド、ユーザー選択のみ選択可）</div>
+    <div class="kintoneplugin-select-outer">
+     <div class="kintoneplugin-select">
+        <select id="resource">
+          <option value="" selected>---</option>
+        </select>
+     </div>
+    </div>
+  </div>
+
+  <div class="block" id="resourceGroupCode_block" style="display：none;">
+    <div class="kintoneplugin-label">
+        <span id ="container_label">リソース表示設定</span>
+        <span class="kintoneplugin-require">*</span>
+        <span style="color: #A40000;">※Pro専用機能</span>
+    </div>
+    <div class="kintoneplugin-row">リソース表示をcybozu.comの組織情報と連動させる場合は【cybozu.com組織情報と連動】を選択してください。<br />またはリソースとして初期表示するグループ（ロール）を選択してください。</div>
+    <div class="kintoneplugin-select-outer">
+     <div class="kintoneplugin-select">
+        <select id="resourceGroupCode">
+          <option value="" selected>---</option>
+          <option value="CALENDARPLUS_RESOURCE_ORGANIZATION">【cybozu.com組織情報と連動】</option>
+        </select>
+     </div>
+    </div>
+  </div>
+
+  <div class="block" id="noResourceSetting_block" style="display：none;">
+    <div class="kintoneplugin-label">
+        <span id ="container_label">（未設定）欄の非表示設定</span>
+        <span style="color: #A40000;">※Pro専用機能</span>
+    </div>
+    <div class="kintoneplugin-row">（未設定）欄をリソースとして表示させない場合はチェックしてください。</div>
+    <div class="kintoneplugin-input-checkbox"><span class="kintoneplugin-input-checkbox-item"><input type="checkbox" name="noResourceSetting" value="hideNoResource" id="noResourceSetting"><label for="noResourceSetting">（未設定）欄を表示しない</label></span></div>
+  </div>
+
+  <div class="block" id="verticalResourceView_block" style="display：none;">
+    <div class="kintoneplugin-label">
+        <span id ="container_label">日別表示のリソース別表示設定</span>
+        <span style="color: #A40000;">※Pro専用機能</span>
+    </div>
+    <div class="kintoneplugin-row">日別表示をリソース別表示にする場合はチェックしてください。（リソース数が多い場合、横幅が長くなるのでご注意ください）</div>
+    <div class="kintoneplugin-input-checkbox"><span class="kintoneplugin-input-checkbox-item"><input type="checkbox" name="verticalResourceView" value="enableVerticalResourceView" id="verticalResourceView"><label for="verticalResourceView">日別表示をリソース別表示にする</label></span></div>
+  </div>
+
+  <div class="block">
+    <button type="button" id="submit" class="kintoneplugin-button-dialog-ok">     保存する     </button>
+    <button type="button" id="cancel" class="kintoneplugin-button-dialog-cancel">     キャンセル   </button>
+  </div>
+
+</div>  

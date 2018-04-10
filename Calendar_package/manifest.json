@@ -1,0 +1,60 @@
+{
+    "manifest_version": 1,
+    "version": 5,
+    "type": "APP",
+    "name": {
+        "ja": "カレンダーPlus",
+        "en": "Calendar Plus",
+        "zh": "日历 Plus"
+    },
+    "description": {
+        "ja": "kintoneに素敵なカレンダー機能をプラスするプラグインです。 (Ver.5.0)",
+        "en": "It is a plug -in that plus a nice calendar function to kintone. (Ver.5.0)",
+        "zh": "It is a plug -in that plus a nice calendar function to kintone. (Ver.5.0)"
+    },
+    "icon": "image/icon.png",
+    "homepage_url": { 
+        "ja": "http://radical-bridge.com/product/calendarPlus.html",
+        "en": "http://radical-bridge.com/product/calendarPlus.html",
+        "zh": "http://radical-bridge.com/product/calendarPlus.html"
+    },
+    "desktop": {
+        "js": [
+            "https://js.cybozu.com/jquery/2.1.4/jquery.min.js",
+            "https://js.cybozu.com/sweetalert/v1.1.3/sweetalert.min.js",
+            "https://js.cybozu.com/momentjs/2.10.6/moment.min.js",
+            "https://js.cybozu.com/fullcalendar/v3.4.0/fullcalendar.min.js",
+            "https://js.cybozu.com/jstree/3.3.4/jstree.min.js",
+            "js/scheduler.min.js",
+            "js/locale-all.js",
+            "js/RB_activation_v3.js",
+            "js/calendarPlus.js"
+        ],
+        "css": [
+            "https://js.cybozu.com/fullcalendar/v3.4.0/fullcalendar.min.css",
+            "https://js.cybozu.com/sweetalert/v1.1.3/sweetalert.css",
+            "https://js.cybozu.com/jstree/3.3.4/themes/default/style.min.css",
+            "css/scheduler.min.css",
+            "css/calendarPlus.css",
+            "css/51-us-default.css"
+        ]
+    },
+    "mobile": {
+    },
+    "config": {
+        "html": "html/config.html",
+        "js": [
+            "https://js.cybozu.com/jquery/2.1.4/jquery.min.js",
+            "js/config.js"
+        ],
+        "css": [
+            "css/51-jp-default.css",
+            "css/config.css"
+        ],
+        "required_params": [
+            "defaultViewName", "detailMode", "title", "titleForDisp", "startDateTime", "endDateTime", "allDay",
+            "allDayFieldValue", "allDayFieldValue_ja", "allDayFieldValue_en", "allDayFieldValue_zh",
+            "minTime", "maxTime", "firstDay", "allowOverlap", "slotDurationForTime", "allowEditable"
+        ]
+    }
+}

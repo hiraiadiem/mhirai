@@ -1,0 +1,43 @@
+{
+    "manifest_version": 1,
+    "version": 1,
+    "type": "APP",
+    "name": {
+        "ja": "検索機能サンプル",
+        "en": "search sample",
+        "zh": "搜索样本"
+    },
+    "description": {
+        "ja": "kintoneに任意の検索項目を追加するプラグイン。 (Ver.1.0)",
+        "en": "It is a plug -in that plus a nice calendar function to kintone. (Ver.1.0)",
+        "zh": "It is a plug -in that plus a nice calendar function to kintone. (Ver.1.0)"
+    },
+    "icon": "image/search.png",
+    "homepage_url": {
+        "ja": "https://adiem.jp/",
+        "en": "https://adiem.jp/",
+        "zh": "https://adiem.jp/"
+    },
+    "desktop": {
+        "js": [
+          "https://js.cybozu.com/jquery/1.11.1/jquery.min.js",
+          "js/header_search.js"
+        ],
+        "css": [
+            "css/51-modern-default.css"
+        ]
+    },
+    "mobile": {
+    },
+    "config": {
+        "html": "html/search_config.html",
+        "js": [
+            "https://js.cybozu.com/jquery/2.1.4/jquery.min.js",
+            "js/config.js"
+        ],
+        "css": [
+            "css/51-jp-default.css",
+            "css/search_config.css"
+        ]
+    }
+}

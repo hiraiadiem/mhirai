@@ -1,0 +1,26 @@
+#calendarPlus .fc-toolbar h2 {
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+#calendarPlus .fc-content {
+    white-space: normal !important;
+}
+
+#calendarPlus .fc-body .fc-scroller {
+    overflow-y: hidden !important;
+}
+
+.fixed {
+    position: relative !important;
+    background-color: #FFF !important;
+    z-index: 10 !important;
+}
+
+.fixedAllDayForAgendaDay {
+    position: relative !important;
+    background-color: #FFF !important;
+    z-index: 10 !important;
+    border-bottom: 4px double #ddd !important;
+    margin-top: -1px;
+}

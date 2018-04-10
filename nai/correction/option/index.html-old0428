@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="ja" prefix="og: http://ogp.me/ns#">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>校閲・校正オプションサービス｜英文校正・校閲・添削、論文翻訳のNAI</title>
+	<meta name="description" content="校閲・校正オプションサービスのページです。英語論文の校正・校閲・添削ならエヌ・エイ・アイにお任せ下さい。有名ジャーナルの査読経験者やMD.、Ph.D.の保有者から、欧米出身の各分野に特化した経験豊富な校閲者を厳選しております。英文の校正・校閲・添削・翻訳・リバイス・リライト20年以上の実績、お客様満足度90％のサービスでアクセプトをサポートします。翻訳や従来型校閲サービスに加え新サービスを導入しております。文法チェックからプレゼンサポート、ウルトラリライト(ネイティブ英語への大転換)日本人科学翻訳者による校閲前下準備サポートまで行っております。無料お見積り承ります。" />
+	<meta name="format-detection" content="telephone=no">
+	<link rel="shortcut icon" type="image/vnd.microsoft.icon" sizes="16x16" href="/favicon.ico">
+	<link rel="icon" href="/favicon.ico">
+	<link rel="start" href="http://www.nai.co.jp/" title="ホーム">
+	<link rel="stylesheet" href="/common/css/commons.css">
+	<link rel="stylesheet" href="/common/css/contents/correction-option.css">
+	<link rel="stylesheet" href="/common/css/fonts.css">
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather+Sans|Lato:400,700,900">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+	<script src="/common/js/jquery/jquery.easing.1.3.js"></script>
+	<script src="/common/js/module.js"></script>
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="/common/js/selectivizr-1.0.2.min.js"></script>
+	<![endif]-->
+	<!--[if lt IE 7]>
+	<script src="/common/js/DD_belatedPNG.js"></script>
+	<script src="/common/js/PNGclass.js"></script>
+	<![endif]-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-10019976-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</head>
+<body id="content" class="option">
+<script type="text/javascript">
+	writeHeader("../../","校閲・校正オプションサービス｜");
+</script>
+	<div id="ttlBlock"><!-- ttlBlock -->
+		<h2>校閲・校正オプションサービス</h2>
+	</div><!-- /ttlBlock -->
+	<div id="pankuzu">
+		<ul>
+			<li><a href="/">NAI ホーム</a></li>
+			<li><a href="/correction/">英文校閲・校正</a></li>
+			<li>校閲・校正オプションサービス</li>
+		</ul>
+	</div>
+	<div id="mainContentArea">
+		<nav class="subPage b4">
+			<ul>
+				<li><a href="#c1"><i class="icon-cd"></i>投稿規程チェック</a></li>
+				<li><a href="#c2"><i class="icon-cd"></i>校閲者からの評価コメント</a></li>
+				<li><a href="#c3"><i class="icon-cd"></i>校閲証明書</a></li>
+				<li><a href="#c4"><i class="icon-cd"></i>LaTex校閲</a></li>
+			</ul>
+		</nav>
+		<section class="box" id="c1">
+			<h3 class="secTtl"><span>投稿規程チェック</span></h3>
+			<div class="textBox">
+				<p>投稿予定先ジャーナルの投稿規程に、お客様の論文が準拠しているかチェックするオプションサービスです。以下の項目について、ジャーナルのHP等に記載された投稿規程（Instruction for Authors）に沿った論文になっているかを校閲者がチェックし、不足部分等があった場合はコメントいたします。</p>
+				<ul class="normalList mb20">
+					<li>ジャーナルが要求しているセクションを満たしているか。</li>
+					<li>フォントやフォントサイズ等が要求を満たしているか。</li>
+					<li>ワード数制限の有無の確認と制限がある場合はそれを満たしているか。</li>
+					<li>Referencesの記載順、記載形式、記載数制限等が要求を満たしているか。</li>
+					<li>その他の規程を満たしているか。</li>
+				</ul>
+				<p>「校閲依頼フォーム」の「投稿規程チェック希望」にチェックを入れ、添付ファイルにて投稿規程をお送りください。メールでのご依頼の場合は、投稿予定先および投稿規程チェック希望の旨を記載し、ご依頼原稿と同様に添付ファイルにて投稿規程を送付してください。尚、PDF等による送付が難しい場合は、投稿規程が記載されていますwebサイトのURLをご連絡ください。</p>
+				<p>
+                <small>※校閲基本料金の20%増料金が発生いたします。納期は通常校閲+約1日の日数を頂戴しております。</small></p>
+                <p>
+                <small>※投稿規程チェックのみのご依頼はお受けしかねます。予めご了承ください。</small>
+				</p>
+			</div>
+		</section>
+		<section class="box" id="c2">
+			<h3 class="secTtl"><span>校閲者からの評価コメント（無料）</span></h3>
+			<div class="textBox">
+				<p>お客様のご希望に応じて、無料にて、担当校閲者から原稿の英語および内容に対する評価コメントを無料にてご提供しております。<br>
+				論文自体または内容に関して、さらにお客様の英語スキルに対する評価や、論文内でどの部分を強調すべきか、的確に結論が分かりやすく記載されているか等を客観的判断し詳細なコメント等で評価いたします。ご希望の際は、校閲依頼フォームの「校閲者による英語および論文の内容に関しての評価コメント希望」欄にチェックの記入をお願いいたします。また、メールでのご依頼の場合は、その旨の記載をお願いいたします。</p>
+			</div>
+		</section>
+		<section class="box" id="c3">
+			<header class="secTtlCover">
+				<h3 class="secTtl"><span>校閲証明書</span></h3>
+				<p>PDFは無料/書面は500円（税抜）</p>
+			</header>
+			<div class="textBox">
+				<p>NAIでは弊社で校閲した原稿に対して、無料でPDFによる校閲証明書を発行いたします。また、書面での校閲証明書の発行をご希望される方には別途料金500円（税抜）にて発行しております。<br>
+				多くの学術系雑誌は論文投稿時に英語のネイティブによる校閲証明書を求められます。また、学術系雑誌のリクエストにより校閲証明書発行の必要性がない場合であっても、時として大変残念なことではありますが「非英語圏からの投稿」というだけで、一方的に「英語の添削が必要」と書かれてしまいリジェクトされてしまうことがあります。証明書の提出がその可能性をゼロにするわけではありませんが、大幅に軽減できる可能性があります。<br>
+				ご希望の際は、論文校閲フォームの「校閲証明書の発行（※PDF無料）」または「校閲証明書の発行（※書面有料）」欄にチェエクの記入をお願いいたします。<br>
+				また、メールでのご依頼の場合は、その旨の記載をお願いいたします。<br>
+				<small>※校閲証明書には原稿のタイトルを記載します。その為、タイトルも弊社にて校閲が必要となります。校閲証明書発行をご希望される原稿はタイトルの含まれたものをお送りください。英文タイトルがない原稿に関しましては弊社までご相談ください。</small></p>
+			</div>
+		</section>
+		<section class="box" id="c4">
+			<h3 class="secTtl"><span>LaTex校閲</span></h3>
+			<div class="textBox">
+				<p>LeTax/Texで作成された原稿の校閲も対応しております。<br>
+				ご希望の際は、以下の3点の原稿をお送りください。</p>
+				<ul class="normalList mb20">
+					<li>LaTex/Tex原稿</li>
+					<li>原稿をPDFに変換したファイル</li>
+					<li>LaTex/Tex原稿をWordフォーマットで保存したファイル（コマンドは残したままの状態で問題ありません）</li>
+				</ul>
+				<p>通常の校閲より作業が複雑になるため、校閲料金の20%の追加料金が発生いたします。納期につきましても通常校閲＋約1日程かかります。<br>
+				Word内のコマンドをお客様ご自身で削除していただきましたら、通常の校閲としての扱いとなります。<br>
+				<small>※分野と校閲者の状況により対応出来かねる場合があります。ご了承ください。</small></p>
+			</div>
+		</section>
+		<nav class="btnArrowArea">
+			<ul>
+				<li><a href="/correction/"><span>目的別選択NAI校閲サービス<i class="icon-dr"></i></span></a></li>
+				<li><a href="/revise/"><span>リバイス（再投稿論文）校閲<i class="icon-dr"></i></span></a></li>
+				<li><a href="/others/"><span>レター/メール・カバーレター文新規作成<i class="icon-dr"></i></span></a></li>
+				<li><a href="/correction/option/texts.html"><span>その他のお取扱い原稿<i class="icon-dr"></i></span></a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="pgTop">
+		<a href="#wrap">校閲・校正オプションサービス トップ<i class="icon-cu"></i></a>
+	</div>
+	<div class="contentContactBox"><!-- contentContactBox -->
+		<div class="in">
+			<div class="ttl m-f">ご依頼はこちら</div>
+			<p>最短1時間でお見積り！</p>
+			<div class="entryBtn hei70">
+				<a href="/mitsumori/" title="英文の校正・校閲・添削のNAI　お見積り・正式発注"><b>お見積･正式発注</b>はこちら</a>
+			</div>
+		</div>
+		<div class="in">
+			<div class="ttl m-f"><i><img src="/common/images/common/ico_first.png" width="20" alt="はじめてのお客様"/></i>はじめてのお客様</div>
+			<p><b>10%オフ</b>または<b>無料トライアル</b>から！</p>
+			<div class="firstBtn hei70">
+				<a href="/firsttime/" title="英文の校正・校閲・添削のNAI　申込"><b>はじめてのお客様</b><p><b class="m-f"><span>10%</span>オフ</b>または<b class="m-f"><span>無料</span>トライアル</b></p>
+				</a>
+			</div>
+		</div>
+		<div class="telBox">
+			<p>お電話でのお問い合わせはこちら<span>営業時間.平日 9:30～18:00</span></p>
+			<div class="tel"><span>Tel.</span>045-290-7200</div>
+		</div>
+	</div><!-- /contentContactBox -->
+<script type="text/javascript">
+	writeFooter("../../");
+</script>
+</body>
+</html>
